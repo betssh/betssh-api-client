@@ -1,0 +1,19 @@
+{
+    "name": "betssh/betssh-api-client",
+    "homepage": "https://github.com/betssh/betssh-api-client",
+    "authors": [
+        {
+            "name": "betssh",
+            "email": "contact@bets.sh"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "fguillot/json-rpc": "1.2.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "betssh\\betssh\\api\\client\\": "src"
+        }
+    }
+}
